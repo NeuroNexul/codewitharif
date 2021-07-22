@@ -11,6 +11,6 @@
   "author": "xeon-cli",
   "license": "ISC",
   "dependencies": {
-    "xeonjs": "^1.1.0"
+    "xeonjs": "^1.2.0"
   }
 }

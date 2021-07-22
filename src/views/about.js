@@ -11,7 +11,7 @@ export default class extends Xeon {
       async getHtml(){
             return(`
                   ${Header({ page: 'about' })}
-                  <div>
+                  <div class="wrapper" style="height:calc(100% - 50px);overflow-y: auto;">
                         <div style="min-height: 200px; max-width: 1000px;margin: 0 auto;">
                               <h2 style="font-family: 'Merienda One', sans-serif;margin: 20px 0 20px 20px;text-decoration: underline;">Let's Know About Me.</h2>
                               <img style="border-radius: 50%;margin: 10px;width: 100px;" src="/assets/logo/logo192.png" alt="Arif Sardar" />
