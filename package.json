@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "xeon-script start",
-    "build": "xeon-script start -prod",
-    "heroku-postbuild": "xeon-script start -prod"
+    "start": "xeon-script start -prod",
+    "build": "xeon-script start"
   },
   "keywords": [],
   "author": "xeon-cli",
