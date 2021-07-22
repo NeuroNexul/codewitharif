@@ -6,7 +6,7 @@
   "scripts": {
     "start": "xeon-script start",
     "build": "xeon-script start -prod",
-    "heroku-postbuild": "ng build --prod"
+    "heroku-postbuild": "xeon-script start -prod"
   },
   "keywords": [],
   "author": "xeon-cli",
