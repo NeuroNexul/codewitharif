@@ -1,0 +1,16 @@
+{
+  "name": "codewitharif",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "xeon-script start",
+    "prod": "xeon-script start -prod"
+  },
+  "keywords": [],
+  "author": "xeon-cli",
+  "license": "ISC",
+  "dependencies": {
+    "xeonjs": "^1.1.0"
+  }
+}
